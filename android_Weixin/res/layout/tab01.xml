@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottom_bar"
+    android:padding="10dp"
+    android:orientation="vertical" >
+
+    <LinearLayout 
+        android:id="@+id/l"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="action_talk"
+        android:padding="5dp"
+        android:background="@drawable/corners_bg"
+        >
+       <ImageButton 
+           android:id="@+id/im"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/icon_user"
+           android:background="#FFFFFF"
+           android:clickable="false"
+           
+           />
+       
+       <TextView 
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_gravity="bottom"
+           android:text="开始聊天"
+           android:layout_marginBottom="10dp"
+           android:textSize="16sp"/>
+        
+    </LinearLayout>
+     
+
+</LinearLayout>

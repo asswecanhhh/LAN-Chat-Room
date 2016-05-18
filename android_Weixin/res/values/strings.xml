@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">android_Weixin</string>
+    <string name="stringadd">添加</string>
+    <string name="stringfqql">发起群聊</string>
+    <string name="stringtjhy">添加好友</string>
+    <string name="stringsys">扫一扫</string>
+    <string name="stringsz">设置</string>
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android_weixin"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_actionbar2"
+        android:label="微信"
+        android:logo="@drawable/icon_actionbar2"
+        android:theme="@style/AppTheme" >
+        <activity 
+            android:name=".Home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name=".LoginActivity" >
+        </activity>
+        <activity
+            
+
+            android:theme="@style/AppTheme" 
+            android:name=".MainActivity">
+        </activity>
+        
+        <activity 
+            android:name=".Message"></activity>
+    </application>
+	<uses-permission android:name = "android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+</manifest>

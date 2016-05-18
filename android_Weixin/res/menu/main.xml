@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"  
+    xmlns:tools="http://schemas.android.com/tools"  
+    tools:context="com.example.android_Weixin.Home" >  
+  
+    <item  
+        android:id="@+id/action_search"  
+        android:actionViewClass="android.widget.SearchView"  
+        android:icon="@drawable/icon_search"  
+        android:showAsAction="ifRoom|collapseActionView"  
+        android:title=""/>  
+    
+        
+    <item  
+        android:id="@+id/action_1"  
+        android:actionProviderClass="com.example.android_Weixin.PlusActionProvider"  
+        android:icon="@drawable/icon_fqql2"  
+        android:showAsAction="ifRoom"  
+        android:title="@string/stringfqql"/>  
+        
+    <item  
+        android:id="@+id/action_2"  
+        android:actionProviderClass="com.example.android_Weixin.PlusActionProvider"  
+        android:icon="@drawable/icon_tjhy2"  
+        android:showAsAction="ifRoom"  
+        android:title="@string/stringtjhy"/>  
+        
+    <item  
+        android:id="@+id/action_3"  
+        android:actionProviderClass="com.example.android_Weixin.PlusActionProvider"  
+        android:icon="@drawable/icon_sys2"  
+        android:showAsAction="ifRoom"  
+        android:title="@string/stringsys"/>  
+        
+    <item  
+        android:id="@+id/action_4"  
+        android:actionProviderClass="com.example.android_Weixin.PlusActionProvider"  
+        android:icon="@drawable/icon_sz2"  
+        android:showAsAction="ifRoom"  
+        android:title="@string/stringsz"/>  
+        
+    
+  
+</menu> 
