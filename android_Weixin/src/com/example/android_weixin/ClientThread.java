@@ -27,7 +27,7 @@ public class ClientThread implements Runnable
 	{
 		try
 		{
-			s = new Socket("172.18.8.50", 30000);
+			s = new Socket("10.0.0.1", 30000);
 			br = new BufferedReader(new InputStreamReader(s.getInputStream()));
 			os = s.getOutputStream();
 			new Thread()
